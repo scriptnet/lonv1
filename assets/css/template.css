@@ -12495,8 +12495,8 @@ img.img-shadow,
     .header,
     .header.header-small,
     .header.header-transparent {
-        background: #fff;
-        border-bottom: 1px solid rgba(240, 240, 240, .8);
+        background: #000;
+        border-bottom: 1px solid rgba(240, 240, 240, 0);
     }
 
     .header .inner-brand,
@@ -12870,7 +12870,7 @@ img.img-shadow,
 
 .overlay-background.overlay-gradient {
     background: #505cfd;
-    background: linear-gradient(to left, #000000, #2b2b2b);
+    background: linear-gradient(to left, #000000de, #000000);
 }
 
 .divider-top {
